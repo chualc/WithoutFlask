@@ -1,0 +1,39 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>Subscription</title>
+   <link href="./styles/organic.css" rel="stylesheet" />
+</head>
+<body>
+   <form method="post" action="./Confirmation.html">
+      <h2>Subscription</h2>
+      <div>
+         <label for="name" class="control-label">Your name : </label>
+         <input type="text" id="name" name="Name" />
+      </div>
+
+      <div>
+         <label for="email" class="control-label">Your email address : </label>
+         <input type="text" id="email" name="Email" />
+      </div>
+
+      <div>
+         <label class="control-label">Your gender : </label>
+         <label for="male">
+            <input type="radio" id="male" name="Gender" value="Male" />Male
+         </label>
+         <label for="female">
+            <input type="radio" id="female" name="Gender" value="Female" />Female
+         </label>
+      </div>
+
+
+      <div>
+         <input type="submit" id="subscribe" value="Subscribe" />
+      </div>
+   </form>
+   <a href="./Index.html">Back to Main</a>
+</body>
+</html>
+
